@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        display: block;
+        margin: 8px;
+      }
+      h1 {
+        display: block;
+        font-weight: bold;
+        line-height: 48px;
+      }
+      h2 {
+        display: block;
+      }
+      h3 {
+        display: block;
+        font-weight: bold;
+      }
+      li:hover {
+        list-style: none;
+        background-color: #fffbef;
+        display: list-item;
+      }
+
+      p {
+        display: block;
+      }
+
+      ul {
+        display: block;
+        padding: 0;
+        list-style: none;
+      }
+
+      button:hover {
+        background-color: white;
+        color: #1a64d6;
+        cursor: pointer;
+        text-align: center;
+        appearance: auto;
+      }
+      .cloud {
+        color: #1a64d6;
+        font-size: 34px;
+        text-align: center;
+        font-weight: bolder;
+        margin: 0;
+      }
+      .header {
+        color: #1a64d6;
+        text-align: center;
+        display: block;
+        font-weight: 600;
+        font-size: 34px;
+        line-height: 48px;
+        margin: 0;
+        font-family: Helvetica, Arial, sans-serif;
+      }
+
+      .current-weather1 {
+        font-size: 34px;
+        text-align: center;
+        line-height: 48px;
+        font-weight: 400;
+        font-family: Helvetica, Arial, sans-serif;
+        margin: 0;
+      }
+      .tmr {
+        text-align: center;
+        font-family: Helvetica, Arial, sans-serif;
+        text-align: center;
+        padding: 10px 0;
+        border-radius: 10px;
+        transition: all 200ms ease-in-out;
+        max-width: 400px;
+        margin: 0 auto;
+        opacity: 1.3;
+      }
+      .tmr1 {
+        font-family: monospace;
+        font-size: 18px;
+        opacity: 0.7;
+      }
+      .mybutton {
+        color: white;
+        background: #1a64d6;
+        border: 1px solid #1a64d6;
+        box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+        padding: 16px 24px;
+        display: block;
+        font-size: 16px;
+        line-height: 22px;
+        margin: 20px auto;
+        border-radius: 30px;
+        transition: all 200ms ease-in;
+      }
+      .footnote {
+        text-align: center;
+        font-family: monospace;
+        opacity: 0.7;
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="cloud">🌤</h1>
+    <div class="header">Currently 21° in Tokyo</div>
+
+    <h2 class="current-weather1">13° / <strong>23°</strong></h2>
+
+    <ul>
+      <li class="tmr">
+        <h3>🌧Tomorrow</h3>
+        <p class="tmr1">10° /<strong> 22°</strong></p>
+      </li>
+
+      <li class="tmr">
+        <h3>🌥 Saturday</h3>
+        <p class="tmr1">15° /<strong> 17°</strong></p>
+      </li>
+
+      <li class="tmr">
+        <h3>☀️ Sunday</h3>
+        <p class="tmr1">25° /<strong> 28°</strong></p>
+      </li>
+
+      <button class="mybutton">Change city</button>
+    </ul>
+
+    <p class="footnote">Coded by Matt Delac</p>
+  </body>
+</html>
